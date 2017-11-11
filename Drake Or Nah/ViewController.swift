@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var progressLabel: UILabel!
     @IBOutlet var progressBar: UIView!
     
+    
     var allQuestions = QuestionBank()
     var pickedAnswer : Bool = false
     var questionNumber : Int = 0
@@ -61,7 +62,7 @@ class ViewController: UIViewController {
     func updateUI() {
         
         progressBar.frame.size.width = (view.frame.size.width / 15) * CGFloat(questionNumber)
-        
+
         progressLabel.text = String(questionNumber) + "/15"
         
         scoreLabel.text = "Score: " + String(score)
