@@ -60,9 +60,9 @@ class ViewController: UIViewController {
     // This method will update all the views on screen (progress bar, score label, etc)
     func updateUI() {
         
-        progressBar.frame.size.width = (view.frame.size.width / 20) * CGFloat(questionNumber)
+        progressBar.frame.size.width = (view.frame.size.width / 15) * CGFloat(questionNumber)
         
-        progressLabel.text = String(questionNumber) + "/20"
+        progressLabel.text = String(questionNumber) + "/15"
         
         scoreLabel.text = "Score: " + String(score)
         
@@ -72,7 +72,7 @@ class ViewController: UIViewController {
     //This method will update the question text and check if we reached the end.
     func nextQuestion() {
         
-        if questionNumber <= 19 {
+        if questionNumber <= 14 {
             
             indexOfSelectedQuestion = Int(arc4random_uniform(UInt32(allQuestions.list.count)))
             let selectedQuestion = allQuestions.list[indexOfSelectedQuestion]
