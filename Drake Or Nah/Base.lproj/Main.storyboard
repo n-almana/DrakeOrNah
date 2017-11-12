@@ -55,7 +55,7 @@
                                         <subviews>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0f8-ch-sc8">
                                                 <rect key="frame" x="170" y="0.0" width="86" height="50"/>
-                                                <color key="backgroundColor" red="0.75827394530000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" red="0.94984374999999999" green="0.37400968880000002" blue="0.35398531259999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="XPa-eI-rVw"/>
                                                     <constraint firstAttribute="width" constant="86" id="jja-C3-1RL"/>
@@ -70,7 +70,7 @@
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fEE-Zr-PVH">
                                                 <rect key="frame" x="0.0" y="0.0" width="86" height="50"/>
-                                                <color key="backgroundColor" red="0.61568627450000002" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.72575811574629856" green="0.96680279613605447" blue="0.4391578111823129" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="86" id="1gn-CZ-eRg"/>
                                                     <constraint firstAttribute="height" constant="50" id="6lT-Hf-FAj"/>
