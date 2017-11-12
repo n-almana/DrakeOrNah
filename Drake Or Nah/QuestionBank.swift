@@ -132,7 +132,7 @@ class QuestionBank {
         
         list.append(Question(text: "Alicia Keys is featured in the song Fireworks.", correctAnswer: true))
         
-        list.append(Question(text: "Jay Z has a feature in Thank Me Later.", correctAnswer: true)) 
+        list.append(Question(text: "Jay Z has a feature in Thank Me Later.", correctAnswer: true))
         
         
     }
