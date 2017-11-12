@@ -106,13 +106,34 @@ class QuestionBank {
         
         list.append(Question(text: "\"Somewhere between psychotic and iconic\" was the opening line in the song Furthest Thing.", correctAnswer: true))
         
-        list.append(Question(text: "Drake said \"and I hate that you don’t think I belong to ya.\"", correctAnswer: true))
+        list.append(Question(text: "Drake said, \"and I hate that you don’t think I belong to ya.\"", correctAnswer: true))
         
-        list.append(Question(text: "Drake said \"I made every woman feel like she was mine and no one else’s\" in his song Wu-Tang Forever.", correctAnswer: false))
+        list.append(Question(text: "Drake said, \"I made every woman feel like she was mine and no one else’s\" in his song Wu-Tang Forever.", correctAnswer: false))
         
-        list.append(Question(text: "Drake said \"it ain’t about who did it first, it’s about who did it right\" in the album Nothing Was The Same.", correctAnswer: true))
+        list.append(Question(text: "Drake said, \"it ain’t about who did it first, it’s about who did it right\" in the album Nothing Was The Same.", correctAnswer: true))
         
         list.append(Question(text: "\"It’s not me and you, it’s not me, it’s you\" was the opening line in the song The Motion.", correctAnswer: true))
+        
+        list.append(Question(text: "Drake said, \"and no I’m not saying I’m the nicest, I just live life like it.\" ", correctAnswer: true))
+        
+        list.append(Question(text: "Drake said, \"Worked so hard, forgot how to vacation. They ain't never had the dedication.\" ", correctAnswer: false))
+        
+        list.append(Question(text: "Drake said \"what’s fun about commitment when we have our life to live?\" ", correctAnswer: false))
+        
+        list.append(Question(text: "The song Hate Sleeping Alone is from the album Take Care.", correctAnswer: true))
+        
+        list.append(Question(text: "The song Doing It Wrong is from the album Nothing Was The Same.", correctAnswer: false))
+        
+        list.append(Question(text: "Andre 3000 is featured in the album Take Care.", correctAnswer: true))
+        
+        list.append(Question(text: "Lil Wayne is featured in the album Views", correctAnswer: false))
+        
+        list.append(Question(text: "More Life was released before What A Time To Be Alive.", correctAnswer: false))
+        
+        list.append(Question(text: "Alicia Keys is featured in the song Fireworks.", correctAnswer: true))
+        
+        list.append(Question(text: "Jay Z has a feature in Thank Me Later.", correctAnswer: true)) 
+        
         
     }
 }
